@@ -50,8 +50,10 @@ typedef void(^StarScoreValueBlock)(XDStarRatingScoreView *starRatingScoreView,CG
 示例：
 ```
 #import "XDStarRatingScoreView.h"
+
 @interface ViewController ()<XDStarRatingScoreViewDelegate>
-@property (strong, nonatomic) XDStarRatingScoreView *starRatingScoreView;
+
+@property (nonatomic, strong) XDStarRatingScoreView *starRatingScoreView;
 
 @end
 
