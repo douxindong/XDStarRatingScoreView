@@ -15,20 +15,29 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XDStarRatingScoreView"
-  s.version      = "1.0.0"
-  s.summary      = "星级评分"
-
+	s.name         = "XDStarRatingScoreView"
+	s.version      = "0.0.2"
+	s.summary      = "星级评分"
+	s.description  = <<-DESC
+				   			简单易用的星级评分
+	               DESC
+	s.homepage     = "https://github.com/douxindong/XDStarRatingScoreView"
+	s.license      = { :type => "MIT", :file => "LICENSE" }
+	s.author       = { "douxindong" => "1434619565@qq.com" }
+	s.ios.deployment_target = '8.0'
+	s.social_media_url   = "https://weibo.com/2947129491"
+	#s.source = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :commit => "dd4ae7e" }
+	#s.source = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => 0.0.1 }
+	s.source       = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => s.version }
+	s.source_files = "XDStarRatingScoreView/XDStarRatingScoreView/*.{h,m}"
+    s.resources    = "XDStarRatingScoreView/XDStarRatingScoreView.bundle"
+	s.requires_arc = true
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-				   			简单易用的星级评分
-                   DESC
-
-  s.homepage     = "https://github.com/douxindong/XDStarRatingScoreView.git"
+  
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +47,7 @@ Pod::Spec.new do |s|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
-s.license= { :type => "MIT", :file => "LICENSE" }
+  
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +61,7 @@ s.license= { :type => "MIT", :file => "LICENSE" }
   #  profile URL.
   #
 
-  s.author             = { "douxindong" => "1434619565@qq.com" }
+  
   # Or just: s.author    = ""
   # s.authors            = { "" => "you@example.com" }
   # s.social_media_url   = "http://twitter.com/"
@@ -64,8 +72,7 @@ s.license= { :type => "MIT", :file => "LICENSE" }
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  s.ios.deployment_target = '8.0'
+  
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -81,7 +88,7 @@ s.license= { :type => "MIT", :file => "LICENSE" }
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => "#{s.version}" }
+ 
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +99,7 @@ s.license= { :type => "MIT", :file => "LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XDStarRatingScoreView/XDStarRatingScoreView/*.{h,m}"
+ 
   # s.exclude_files = "XDStarRatingScoreView/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -120,7 +127,6 @@ s.license= { :type => "MIT", :file => "LICENSE" }
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-s.frameworks  = "UIKit"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -131,7 +137,7 @@ s.frameworks  = "UIKit"
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
