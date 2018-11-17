@@ -1,5 +1,6 @@
 # XDStarRatingScoreView
 XDStarRatingScoreView
+```
 #import <UIKit/UIKit.h>
 
 @class XDStarRatingScoreView;
@@ -43,3 +44,5 @@ typedef void(^StarScoreValueBlock)(XDStarRatingScoreView *starRatingScoreView,CG
 - (instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars withStarSelectedImageName:(NSString *)starSelectedImageName andStarNormalImageName:(NSString *)starNormalImageName;
 
 @end
+
+```
