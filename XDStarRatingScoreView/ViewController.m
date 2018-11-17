@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 #import "XDStarRatingScoreView.h"
+
 @interface ViewController ()<XDStarRatingScoreViewDelegate>
-@property (strong, nonatomic) XDStarRatingScoreView *starRatingScoreView;
+
+@property (nonatomic,strong) XDStarRatingScoreView *starRatingScoreView;
 
 @end
 
