@@ -1,3 +1,10 @@
+
+#cocoapods
+```
+pod 'XDStarRatingScoreView', '~> 1.0.0'
+```
+
+
 # XDStarRatingScoreView
 XDStarRatingScoreView
 讲解：
