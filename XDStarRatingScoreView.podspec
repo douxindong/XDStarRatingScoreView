@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
 	s.name         = "XDStarRatingScoreView"
-	s.version      = "1.0.0"
+	s.version      = "1.0.1"
 	s.summary      = "星级评分"
 	s.description  = <<-DESC
 				   			简单易用的星级评分
