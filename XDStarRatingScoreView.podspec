@@ -28,16 +28,16 @@ Pod::Spec.new do |s|
 	s.social_media_url   = "https://weibo.com/2947129491"
 	#s.source = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :commit => "dd4ae7e" }
 	#s.source = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => 0.0.1 }
-	s.source       = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => s.version }
+	s.source       = { :git => "https://github.com/douxindong/XDStarRatingScoreView.git", :tag => "#{s.version}" }
 	s.source_files = "XDStarRatingScoreView/XDStarRatingScoreView/*.{h,m}"
-    s.resources    = "XDStarRatingScoreView/XDStarRatingScoreView.bundle"
+    # s.resources    = "XDStarRatingScoreView/XDStarRatingScoreView.bundle"
 	s.requires_arc = true
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  
+
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-  
+
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  
+
   # Or just: s.author    = ""
   # s.authors            = { "" => "you@example.com" }
   # s.social_media_url   = "http://twitter.com/"
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  
+
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
- 
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- 
+
   # s.exclude_files = "XDStarRatingScoreView/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
